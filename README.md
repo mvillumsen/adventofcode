@@ -1,2 +1,2 @@
-# adventofcode
-Solutions to Advent of Code puzzles using Python 3
+# Advent of Code
+Solutions to Advent of Code puzzles (http://adventofcode.com/) using Python 3
