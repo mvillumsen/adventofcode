@@ -1,8 +1,6 @@
 import numpy as np
 from time import time
-"""
-Part I
-"""
+""" Part I """
 t1 = time()
 f = open("../data/input06.txt", "r")
 lights = np.zeros((1000,1000))
@@ -23,10 +21,8 @@ for line in f:
 print("Part I: {} total brightness".format(lights.sum()))
 print("Time: %f seconds.\n"  % (time()-t1))
 t2 = time()
-"""
-Part II
-"""
 
+""" Part II """
 f = open("../data/input06.txt", "r")
 lights = np.zeros((1000,1000))
 for line in f:

@@ -1,12 +1,4 @@
-"""
-Part 1
-
-North: ^
-South: v
-East: >
-West: <
-"""
-
+""" Part 1 """
 f = open("../data/input03.txt", "r").readlines()
 row=col=0
 santa=set()
@@ -25,10 +17,7 @@ for line in f:
 print("Part 1: ", len(santa))
 
 
-"""
-Part 2
-"""
-
+""" Part 2 """
 f = open("../data/input03.txt", "r").readlines()
 counter=row1=row2=col1=col2=0
 robo=santa=set()

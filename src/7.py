@@ -1,7 +1,4 @@
-"""
-Part I
-"""
-
+""" Part I """
 f = open("../data/input07.txt", "r").readlines()
 c=i=0
 d=dict()
